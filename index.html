@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exorcism Master</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-color: #11050c;
+        }
+        .contentBox{
+            width: 1163px;
+            height:100%;
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            background-image: url('./img/bg.png');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-position-y:200px ;
+        }
+        .top{
+            position: relative;
+            left: 50%;
+            transform: translateX(-50%);
+            width: auto;
+            height: auto;
+        }
+        .content_text_img{
+            width: 100%;
+            min-height: 200px;
+            margin-top: 64px;
+            font-size: 30px;
+            padding-left: 34px;
+            position: relative;
+        }
+        .monster{
+            float: right;
+            margin-top: 30px;
+            position: relative;
+            right: 34px;
+        }
+        p{
+            color: white;
+        }
+        .bg{
+            position: fixed;
+            width: 1202px;
+            height: 554px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="contentBox">
+        <!-- <img src="./img/bg.png" alt="bg" class="bg"> -->
+        <img src="./img/img_top.png" alt="top" class="top">
+        <div class="content_text_img">
+            <img src="./img/img02.png" alt="monster" class="monster">
+            <div class="text">
+                <p style="margin-bottom: 30px;">Download APP for Free</p>
+                <p style="font-size: 34px;color: #ffdd2f;margin-bottom: 14px;">Exorcism Master</p>
+                <p style="margin-bottom: 30px;">Break the darkness,destory demons,and save the world!</p>
+                <p style="font-size: 30px;color: #ffdd2f;margin-bottom: 5px;">-Restore the horror world of demon</p>
+                <p style="font-size: 30px;color: #ffdd2f;margin-bottom: 5px;">-Simple and fun with gorgeous scenes</p>
+                <p style="font-size: 30px;color: #ffdd2f;margin-bottom: 38px;">-Special weapons to sweep all enemies</p>
+                <p style="font-size: 24px;color: #ffdd2f;margin-bottom: 64px;">Customer service:ykjz189@163.com</p>
+                <img src="./img/downlond_btn.png" alt="download" id="download">
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById('download').addEventListener('click', function() {
+			window.location.href = 'https://apps.apple.com/cn/app/id1522646526';
+		})
+    </script>
+</body>
+</html>
